@@ -1,0 +1,34 @@
+.price {
+
+  &__title {
+    font-size: 18px;
+    margin: 0 0 15px 0;
+  }
+
+  &__cost {
+    font-size: 30px;
+    font-family: "OfficinaSerifBoldC";
+    color: #006022;
+    display: block;
+  }
+
+  &__btn {
+    font-size: 22px;
+    font-family: "OfficinaSerifBoldC";
+    color: $white;
+    box-shadow: none;
+    border: none;
+    padding: 20px 50px;
+    background: url('../../img/button_price_bg.jpg') center center no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+    white-space: nowrap;
+    transition: box-shadow .5s ease;
+
+    &:hover {
+      box-shadow: 4px 4px 5px 3px rgba(34, 60, 80, 0.2);
+    }
+  }
+
+
+}

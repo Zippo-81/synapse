@@ -1,0 +1,41 @@
+.project {
+
+  &__title {
+    font-size: 30px;
+    font-family: "OfficinaSerifBoldC";
+    text-align: center;
+    margin: 0 0 30px 0;
+  }
+
+  &__text {
+    margin: 0 0 50px 0;
+  }
+}
+
+#project__img {
+  max-width: 825px;
+}
+
+#project__img img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.twentytwenty-wrapper {
+  margin: 0 auto;
+  max-width: 825px;
+}
+
+.twentytwenty-before-label, .twentytwenty-after-label {
+  display: none;
+}
+
+.twentytwenty-handle {
+  background: $white url('../../img/arm.png') center center no-repeat;
+}
+
+.twentytwenty-left-arrow,
+.twentytwenty-right-arrow {
+  display: none;
+}

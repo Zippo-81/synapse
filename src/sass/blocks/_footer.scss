@@ -1,0 +1,128 @@
+.footer {
+
+  &__title {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  &__listMenu {
+    margin: 15px 0 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__item {
+    margin-bottom: 15px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #494949;
+
+    &:hover {
+      text-decoration: underline;
+      color: #494949;
+    }
+
+    &:hover img {
+      transform: scale(1.2);
+      transition: all .5s ease;
+    }
+  }
+
+  &__place {
+    position: relative;
+    padding-left: 115px;
+
+    &-product {
+      background: url('../../img/footer_geo.png') 80px 10px no-repeat;
+    }
+
+    &-office {
+      background: url('../../img/footer_phone.png') 80px 10px no-repeat;
+    }
+
+  }
+
+  &__placeAddress {
+    font-size: 15px;
+
+    & span {
+      display: block;
+      color: #006022;
+      font-weight: 700;
+    }
+  }
+
+  &__phone {
+    margin: 0 0 18px 0;
+
+    & a {
+      font-size: 15px;
+      font-weight: bold;
+      color: $black;
+      text-decoration: none;
+    }
+  }
+
+  &__clock {
+    font-size: 15px;
+    margin: 0 0 18px 0;
+  }
+
+  &__email {
+    text-decoration: none;
+    color: #006022;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    margin-top: 40px;
+  }
+
+  &__item {
+    margin-right: 30px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 55px;
+    padding-bottom: 20px;
+  }
+
+  &__made {
+    display: flex;
+    align-items: center;
+
+    & span {
+      margin: 0 5px;
+    }
+  }
+
+  &__copyright {
+    font-size: 12px;
+    font-family: 'PT Sans', sans-serif;
+  }
+
+  &__outerLink {
+    font-size: 12px;
+    font-family: "Arial";
+    font-style: italic;
+    color: #494949;
+  }
+
+}

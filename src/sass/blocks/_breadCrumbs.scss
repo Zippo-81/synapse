@@ -1,0 +1,43 @@
+.breadCrumbs {
+  margin-left: 0;
+  margin-right: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+
+  &__item {
+    padding-right: 30px;
+    position: relative;
+
+    &::after {
+      content: '';
+      width: 18px;
+      height: 5px;
+      position: absolute;
+      top: 50%;
+      right: 5px;
+      transform: translateY(-50%);
+      background: url('../../img/arrow_bc.png') center center no-repeat;
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
+
+    &-active::after {
+      display: none;
+    }
+
+  }
+
+  &__link {
+    color: $black;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      color: $black;
+    }
+  }
+
+}
